@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "station-mock-console", "station-mock-service-test\station-mock-console.csproj", "{85B28119-F6AA-4912-91B3-C16A2A524856}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "station-mock-service-UnitTest", "station-mock-service-UnitTest\station-mock-service-UnitTest.csproj", "{3A4B3BAD-839D-4CB3-8DD5-15B58E31098C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{85B28119-F6AA-4912-91B3-C16A2A524856} = {85B28119-F6AA-4912-91B3-C16A2A524856}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Socket.Shared", "Socket.Shared\Socket.Shared.csproj", "{4C00C769-AAD5-41FC-885F-EDE302E61AA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mock-Service", "Mock-Service\Mock-Service.csproj", "{AD96E79D-D556-4F2A-9C2F-3BF9DB18B42E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "station_mock", "station_mock\station_mock.csproj", "{B6A2C3EA-BA33-40FD-9992-A7A1AFFFFED7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85B28119-F6AA-4912-91B3-C16A2A524856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85B28119-F6AA-4912-91B3-C16A2A524856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85B28119-F6AA-4912-91B3-C16A2A524856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85B28119-F6AA-4912-91B3-C16A2A524856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A4B3BAD-839D-4CB3-8DD5-15B58E31098C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A4B3BAD-839D-4CB3-8DD5-15B58E31098C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A4B3BAD-839D-4CB3-8DD5-15B58E31098C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A4B3BAD-839D-4CB3-8DD5-15B58E31098C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C00C769-AAD5-41FC-885F-EDE302E61AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C00C769-AAD5-41FC-885F-EDE302E61AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C00C769-AAD5-41FC-885F-EDE302E61AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C00C769-AAD5-41FC-885F-EDE302E61AA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD96E79D-D556-4F2A-9C2F-3BF9DB18B42E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD96E79D-D556-4F2A-9C2F-3BF9DB18B42E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD96E79D-D556-4F2A-9C2F-3BF9DB18B42E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD96E79D-D556-4F2A-9C2F-3BF9DB18B42E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6A2C3EA-BA33-40FD-9992-A7A1AFFFFED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6A2C3EA-BA33-40FD-9992-A7A1AFFFFED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6A2C3EA-BA33-40FD-9992-A7A1AFFFFED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6A2C3EA-BA33-40FD-9992-A7A1AFFFFED7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F6A8205-F9FB-421C-BA4F-F607A9190384}
+	EndGlobalSection
+EndGlobal

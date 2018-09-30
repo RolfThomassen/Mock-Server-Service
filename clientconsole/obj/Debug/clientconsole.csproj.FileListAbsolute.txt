@@ -1,0 +1,11 @@
+C:\Users\rolft\source\repos\station-proxy-service\clientconsole\bin\Debug\clientconsole.exe.config
+C:\Users\rolft\source\repos\station-proxy-service\clientconsole\bin\Debug\clientconsole.exe
+C:\Users\rolft\source\repos\station-proxy-service\clientconsole\bin\Debug\clientconsole.pdb
+C:\Users\rolft\source\repos\station-proxy-service\clientconsole\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\rolft\source\repos\station-proxy-service\clientconsole\bin\Debug\RabbitMQ.Client.dll
+C:\Users\rolft\source\repos\station-proxy-service\clientconsole\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\rolft\source\repos\station-proxy-service\clientconsole\bin\Debug\RabbitMQ.Client.xml
+C:\Users\rolft\source\repos\station-proxy-service\clientconsole\obj\Debug\clientconsole.csproj.CoreCompileInputs.cache
+C:\Users\rolft\source\repos\station-proxy-service\clientconsole\obj\Debug\clientconsole.csproj.CopyComplete
+C:\Users\rolft\source\repos\station-proxy-service\clientconsole\obj\Debug\clientconsole.exe
+C:\Users\rolft\source\repos\station-proxy-service\clientconsole\obj\Debug\clientconsole.pdb

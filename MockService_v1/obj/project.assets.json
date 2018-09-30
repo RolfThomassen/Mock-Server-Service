@@ -1,0 +1,425 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5": {
+      "log4net/2.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45-full/log4net.dll": {}
+        }
+      },
+      "Logzio.DotNet.Log4net/0.20.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.0",
+          "log4net": "2.0.5"
+        },
+        "compile": {
+          "lib/net45/Logzio.DotNet.Log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Logzio.DotNet.Log4net.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Mock-Service/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "station_mock": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mock-Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mock-Service.dll": {}
+        }
+      },
+      "Socket.Shared/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Socket.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Socket.Shared.dll": {}
+        }
+      },
+      "station_mock/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Socket.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/station_mock.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/station_mock.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5/win": {
+      "log4net/2.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45-full/log4net.dll": {}
+        }
+      },
+      "Logzio.DotNet.Log4net/0.20.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.0",
+          "log4net": "2.0.5"
+        },
+        "compile": {
+          "lib/net45/Logzio.DotNet.Log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Logzio.DotNet.Log4net.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Mock-Service/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "station_mock": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mock-Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mock-Service.dll": {}
+        }
+      },
+      "Socket.Shared/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Socket.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Socket.Shared.dll": {}
+        }
+      },
+      "station_mock/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Socket.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/station_mock.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/station_mock.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5/win-x64": {
+      "log4net/2.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45-full/log4net.dll": {}
+        }
+      },
+      "Logzio.DotNet.Log4net/0.20.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.0",
+          "log4net": "2.0.5"
+        },
+        "compile": {
+          "lib/net45/Logzio.DotNet.Log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Logzio.DotNet.Log4net.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Mock-Service/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "station_mock": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mock-Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mock-Service.dll": {}
+        }
+      },
+      "Socket.Shared/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Socket.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Socket.Shared.dll": {}
+        }
+      },
+      "station_mock/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Socket.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/station_mock.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/station_mock.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5/win-x86": {
+      "log4net/2.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45-full/log4net.dll": {}
+        }
+      },
+      "Logzio.DotNet.Log4net/0.20.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.0",
+          "log4net": "2.0.5"
+        },
+        "compile": {
+          "lib/net45/Logzio.DotNet.Log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Logzio.DotNet.Log4net.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Mock-Service/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "station_mock": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mock-Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mock-Service.dll": {}
+        }
+      },
+      "Socket.Shared/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Socket.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Socket.Shared.dll": {}
+        }
+      },
+      "station_mock/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Socket.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/station_mock.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/station_mock.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "log4net/2.0.8": {
+      "sha512": "N41MQGHZImiCfn0cUuSBjZxrcNfIQCuCgQP0rpgB3J/NWponEh3lc1LxJEuIsPAR9Oc1jVvfkNNFCY1C5hf9LA==",
+      "type": "package",
+      "path": "log4net/2.0.8",
+      "files": [
+        "lib/net20-full/log4net.dll",
+        "lib/net20-full/log4net.xml",
+        "lib/net35-client/log4net.dll",
+        "lib/net35-client/log4net.xml",
+        "lib/net35-full/log4net.dll",
+        "lib/net35-full/log4net.xml",
+        "lib/net40-client/log4net.dll",
+        "lib/net40-client/log4net.xml",
+        "lib/net40-full/log4net.dll",
+        "lib/net40-full/log4net.xml",
+        "lib/net45-full/log4net.dll",
+        "lib/net45-full/log4net.xml",
+        "lib/netstandard1.3/log4net.dll",
+        "log4net.2.0.8.nupkg.sha512",
+        "log4net.nuspec"
+      ]
+    },
+    "Logzio.DotNet.Log4net/0.20.0": {
+      "sha512": "hmPK0DxFvM8rio9UK7pCqEKtjphyCI+/UmhGAsIV1j9bvz/c8i5vp+MHcYk78mtHUT4Gu1DaUxjA3sOsyf8k/A==",
+      "type": "package",
+      "path": "logzio.dotnet.log4net/0.20.0",
+      "files": [
+        "lib/net45/Logzio.DotNet.Log4net.dll",
+        "lib/net45/Logzio.DotNet.Log4net.pdb",
+        "lib/net46/Logzio.DotNet.Log4net.dll",
+        "lib/net46/Logzio.DotNet.Log4net.pdb",
+        "logzio.dotnet.log4net.0.20.0.nupkg.sha512",
+        "logzio.dotnet.log4net.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "type": "package",
+      "path": "newtonsoft.json/11.0.2",
+      "files": [
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "Mock-Service/1.0.0": {
+      "type": "project",
+      "path": "../Mock-Service/Mock-Service.csproj",
+      "msbuildProject": "../Mock-Service/Mock-Service.csproj"
+    },
+    "Socket.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Socket.Shared/Socket.Shared.csproj",
+      "msbuildProject": "../Socket.Shared/Socket.Shared.csproj"
+    },
+    "station_mock/1.0.0": {
+      "type": "project",
+      "path": "../station_mock/station_mock.csproj",
+      "msbuildProject": "../station_mock/station_mock.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.5": [
+      "Logzio.DotNet.Log4net >= 0.20.0",
+      "Mock-Service >= 1.0.0",
+      "Newtonsoft.Json >= 11.0.2",
+      "log4net >= 2.0.8",
+      "station_mock >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\rolft\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\rolft\\source\\repos\\station-mock-service\\MockService_v1\\MockService_v1.csproj",
+      "projectName": "MockService_v1",
+      "projectPath": "C:\\Users\\rolft\\source\\repos\\station-mock-service\\MockService_v1\\MockService_v1.csproj",
+      "packagesPath": "C:\\Users\\rolft\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rolft\\source\\repos\\station-mock-service\\MockService_v1\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\rolft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net45"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net45": {
+          "projectReferences": {
+            "C:\\Users\\rolft\\source\\repos\\station-mock-service\\Mock-Service\\Mock-Service.csproj": {
+              "projectPath": "C:\\Users\\rolft\\source\\repos\\station-mock-service\\Mock-Service\\Mock-Service.csproj"
+            },
+            "C:\\Users\\rolft\\source\\repos\\station-mock-service\\station_mock\\station_mock.csproj": {
+              "projectPath": "C:\\Users\\rolft\\source\\repos\\station-mock-service\\station_mock\\station_mock.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net45": {
+        "dependencies": {
+          "Logzio.DotNet.Log4net": {
+            "target": "Package",
+            "version": "[0.20.0, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[11.0.2, )"
+          },
+          "log4net": {
+            "target": "Package",
+            "version": "[2.0.8, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

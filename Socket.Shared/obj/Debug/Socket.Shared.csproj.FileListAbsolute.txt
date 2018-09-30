@@ -1,0 +1,15 @@
+C:\Users\rolft\source\repos\station-mock-service\Socket.Shared\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\rolft\source\repos\station-mock-service\Socket.Shared\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\rolft\source\repos\station-mock-service\Socket.Shared\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\rolft\source\repos\station-mock-service\Socket.Shared\bin\Debug\Socket.Shared.dll
+C:\Users\rolft\source\repos\station-mock-service\Socket.Shared\bin\Debug\Socket.Shared.pdb
+C:\Users\rolft\source\repos\station-mock-service\Socket.Shared\bin\Debug\log4net.dll
+C:\Users\rolft\source\repos\station-mock-service\Socket.Shared\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\rolft\source\repos\station-mock-service\Socket.Shared\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\rolft\source\repos\station-mock-service\Socket.Shared\bin\Debug\log4net.xml
+C:\Users\rolft\source\repos\station-mock-service\Socket.Shared\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\rolft\source\repos\station-mock-service\Socket.Shared\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\rolft\source\repos\station-mock-service\Socket.Shared\obj\Debug\Socket.Shared.csproj.CoreCompileInputs.cache
+C:\Users\rolft\source\repos\station-mock-service\Socket.Shared\obj\Debug\Socket.Shared.csproj.CopyComplete
+C:\Users\rolft\source\repos\station-mock-service\Socket.Shared\obj\Debug\Socket.Shared.dll
+C:\Users\rolft\source\repos\station-mock-service\Socket.Shared\obj\Debug\Socket.Shared.pdb
